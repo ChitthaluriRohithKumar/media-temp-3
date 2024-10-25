@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    font-size: 1.1rem;
+    padding: 14px;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    
+}
+
+img{
+    height: 10px;
+    width: 10px;
+}
+    span img{
+        height: 100px;
+        width: 100px;
+    }
+    nav {
+        align-items: center;
+        display: flex;
+        gap: 14px;
+       
+       
+    }
+    .A{
+        font-size: 1.5rem;
+    }
+    .icon{
+        font-size:1.5rem ;
+    
+    }
+    
+    a{
+        text-decoration: none;
+        color: black;
+        
+    }
+    a:hover{
+        background-color: orange;
+    }
+    @media screen and (width <= 630px){
+        nav{
+            display: none;
+        }
+        
+    }
+    @media screen and (width>630px) {
+        .icon{
+            display: none;
+        }
+    }
+    nav span:hover{
+        /* padding: 10px; */
+        cursor: pointer;
+        color: orange;
+    }
+    .B:hover{
+        /* background-color: orange; */
+        /* padding: 10px; */
+        cursor: pointer;
+    }
+    .B{
+        background-color: orange;
+    }
+    img{
+        width: 100%;
+        padding: 0px 0px;
+        height: 900px;
+    }
+    .container{
+        position: relative;
+    
+    }
+    .main-container{
+        position: absolute;
+        bottom: 150px;
+        right: 10px;
+        background-color: white;
+        color: black;
+        /* padding: 10px 10px; */
+        border-radius: 30px;
+        /* padding: 0px; */
+    
+    }
+    p{
+        margin: 10px;
+    }
+    
+    h1{
+        margin: 10px;
+    }
+    
+    .one{
+        display: inline-block;
+        background-color: red;
+        color: white;
+        padding: 5px;
+        border-radius: 30px;
+        margin-left: 23%;
+    }
+    .two{
+        text-align: center;
+    }
+    .three{
+        text-align: center;
+        font-weight: bold;
+        margin: 10px;
+    }
+    .four{
+        justify-content: center;
+        display: flex;
+        
+    }
+    .five{
+        text-decoration: underline orange;
+    }
